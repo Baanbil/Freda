@@ -1,0 +1,53 @@
+body{
+  background: url(pexels-tiana-18128-614484.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  font-family: verdana;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+#box{
+  border: 2px solid;
+  width: 200px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: pink;
+  backdrop-filter: blur(5px);
+  box-shadow: 2px 5px 10px black;
+}
+#box button{
+  padding: 10px;
+  background: linear-gradient(180deg, rgba(0, 81, 255, 0.727), rgba(238, 156, 3, 0.914));
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+#main{
+  border: 2px solid ;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  display: none;
+  animation: 2s fadeIn;
+  backdrop-filter: blur(5px);
+}
+#text{
+  color: tomato;
+}
+#main img{
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px
+}
+@keyframes fadeIn{
+  from{ opacity: 0}
+  to{ opacity: 1}
+}
